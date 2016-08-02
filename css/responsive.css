@@ -1,0 +1,242 @@
+/*------------------------------------------------------------
+
+Thayer School of Engineering at Dartmouth
+
+version:	1.0
+author:		Alison Findon
+email:		alison.findon@dartmouth.edu
+website:	http://engineering.dartmouth.edu
+
+------------------------------------------------------------*/
+
+a.menu-link, 
+a.menu-link:link, 
+a.menu-link:visited {
+	display:none;
+}
+#mobile-header {
+	display:none;
+}
+#headercontainer {
+	width:100%; 
+	background-color: #357037;
+	border-bottom:1px solid #ccc;
+}
+#header {
+	max-width: 1010px; 
+	margin:0 auto;
+	border-bottom:none;
+}
+#outercontainer {
+	width:100%;
+	border-top: 3px solid #8D6C42;
+}
+#mastercontainer {
+	max-width: 1010px; 
+	margin:0 auto;
+	width:100%;
+	border-top:none;
+}
+#content_positioning {
+	min-width:0;
+}
+#content {
+	width:100%;
+}
+h1 {
+	line-height: 1.2em;
+}
+#footercontainer {
+	width:auto;
+	border-top: 1px solid #777673;
+	padding-left:10px; 
+	padding-right:10px;
+}
+#footer {
+	max-width: 1010px; 
+	margin:0 auto;
+	border-top:none;
+}
+
+
+
+
+@media screen and (max-width:1005px) { /* 940 + 65 */
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+	.nivo-caption {
+		position: relative !important;
+		
+	}
+
+} /* end max-width:1005px */
+
+
+
+@media screen and (max-width:638px) {
+	#header {
+		height:auto;
+		padding-top:0;
+		padding-bottom:0;
+		background-image:none;
+	}
+	#header #utilitynav {
+		background-color:#357037; 
+		margin-left:0;
+	}
+	#header #utilitynav #stripe {
+		background-image:none;
+		text-align:left;
+		padding-left:5px;
+	}
+	#mastercontainer {
+		margin-top:0;
+		padding-top:10px;
+		margin-bottom:20px;
+	}
+	#mobile-header {
+		display:block;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-size:18px;
+		color: #fff;
+		margin:0 5px 10px 5px;
+	}
+	#mobile-header a, 
+	#mobile-header a:link,
+	#mobile-header a:visited {
+		color: #fff;
+		text-decoration:none;
+	}
+    a.menu-link, 
+    a.menu-link:link, 
+    a.menu-link:visited {
+		display: block;
+		padding: 0.3em 0;
+		background-color: #357037;
+		padding-left: 2%;
+		color: #fff;
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	a.menu-link:hover {
+		text-decoration:none;
+	}
+	a.menu-link span{
+		background: url("../images/down-arrow.png") no-repeat scroll right center transparent;
+		cursor: pointer;
+		padding-right: 18px;
+	}
+	a.active span{
+		background: url("../images/up-arrow.png") no-repeat scroll right center transparent;
+		cursor: pointer;
+		padding-right: 18px;
+	}
+	div#menu-mobile{
+		clear: both;
+		-webkit-transition: all 0.3s ease-out;  
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+	.js div#menu-mobile {
+		overflow: hidden;
+		max-height: 0; 
+	}
+	div#menu-mobile.active {
+		max-height: 105em; 
+	}
+	#navigation{
+		float:none;
+		width:100%;
+	}
+	#navigation li, 
+	#navigation a {
+		width:100%;
+	}
+	#navigation li.subnav {
+		width:100%;
+	}
+	#navigation li.subnav a, 
+	#navigation #related li a {
+		width:100%;
+	}
+	#content_positioning{
+		margin-left:0; 
+		min-width:100%;
+		max-width:100%;
+		padding-right:0;
+	}
+	#content {
+		float:none;
+		padding-left:5px;
+		padding-right:5px;
+		width:auto;
+	}
+	h1 {
+		border:none;
+		color: #fff; 
+		line-height: 1.3em;
+		margin-top:20px !important;
+		font-size: 2em;
+	}
+	h2 {
+		font-size: 1.4em;
+	}
+	ul {
+		margin-left:15px;
+	}
+	table, 
+	thead, 
+	tbody, 
+	th, 
+	td, 
+	tr { 
+		display: block; 
+	}
+	#content .twocolumn_left, 
+	#content .twocolumn_right {
+		width:100%;
+	}
+	#content .twocolumn_left {
+		padding-right:0;
+	}
+	#content .twocolumn_right {
+		border-left:none;
+		clear:both;
+		padding-left:0;
+	}
+	#content .twocolumn_left p, 
+	#content .twocolumn_right p {
+		clear:both;
+		padding-bottom: 10px;
+	}
+	#content .twocolumn_left img, 
+	#content .twocolumn_right img {
+		padding-bottom: 10px
+	}
+	#content .twocolumn_right h2 {
+		margin-top: 100px !important;
+	}
+	#footercontainer {
+		padding-left:0; 
+		padding-right:0;
+	}
+	#footer {
+		margin-left:0;
+		margin-right:0; 
+		padding-left:5px;
+		padding-right:5px;
+	}
+	#footer #copyright, 
+	#footer #address {
+		float:none !important;
+	}
+	#footer #address {
+		text-align:left !important; 
+		margin-top:20px;
+		padding-bottom:20px;
+	}
+} /* end max-width: 638px */

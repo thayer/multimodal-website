@@ -1,0 +1,152 @@
+/*//// Global Styles //////////////////////*/
+
+
+body {
+	background-color:#161a15;
+	color:#cccccc;}
+	
+img {
+	border:1px solid #000000; }
+
+a {
+	color:#408343; }
+	
+h1, h2, h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#8d6c42;}
+	
+h1 {
+	color:#ffffff; }
+	
+hr {
+	color: #b2d5c6;
+	background-color:#777673; }
+	
+blockquote {
+	background:url(../images/blockquote.gif) repeat-y;
+	color:#ffffff; }
+	
+
+/*//// Global Classes //////////////////////*/
+
+
+table.datatable {
+	border-right:1px solid #b2b2b2;
+	border-top:1px solid #b2b2b2; }
+
+table.datatable th {
+	background-color:#8e7657;
+	color:#ffffff;
+	border-left:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2; }
+
+table.datatable td {
+	border-left:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2;}
+
+
+/* The classes below style the two column pages of the site. Editing them can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+
+#content .twocolumn_right {
+	border-left:1px solid #777673;}
+	
+
+
+
+/*//// Page Structure //////////////////////*/
+
+
+/* Please note that editing any of the styles below can break the layout of your website. It is not recommended to do any editing without backing this file up. */
+
+#header {
+	background:#357037 url(../images/header.gif) no-repeat;
+	border-bottom:1px solid #cccccc; }
+
+
+#mastercontainer {
+	border-top:3px solid #8d6c42;
+	color: #FF0000; }	
+
+
+#navigation {
+	color:#cc00ff; }
+	
+#content_positioning {
+	color: #FF0000;}
+	
+	
+	#content {
+		color:#cccccc;
+		width:100%; }
+
+
+#footer {
+	border-top:1px solid #777673; }
+
+
+
+/*//// Navigation //////////////////////*/
+
+
+/* Utility Nav */
+
+#header #utilitynav {
+	border-top:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	color:#ffffff; }
+	
+	#header #utilitynav #stripe {
+		background:#357037 url(../images/stripe.gif) no-repeat; }
+
+	#header #utilitynav a {
+		color:#ffffff; }
+
+
+/* Global Nav */
+
+#navigation li {
+	border-bottom:1px solid #777673; }
+	
+ 
+#navigation a {
+	color:#408343;  }
+	
+#navigation a.current_page, #navigation a.current_page:hover {
+	background-color:#8d6c42;
+	color:#FFFFFF; }
+
+#navigation a:hover {
+	background-color:#333333; }
+
+
+/* Sub-Nav and Related Links */	
+
+#navigation	li.subnav, #navigation #related ul {
+	background-color:#8ea990; }
+	
+	#navigation li.subnav a, #navigation #related li a {
+		background:url(../images/bullet.gif) no-repeat 6px 8px;
+		color:#000000; }
+	
+		#navigation li.subnav a:hover, #navigation #related li a:hover {
+			background-color:#8ea990; }
+
+#navigation #related h3 {
+	color:#ffffff;
+	border-bottom:1px solid #777673;}	
+
+
+/* Search */
+
+#navigation #search{
+	width:0px;
+	margin:0;
+	padding-left:0px; }
+
+	#navigation #search div#search-label {
+		color:#cccccc; }
+		
+	#navigation #search #text {
+		color:#333333;
+		border:1px solid #b2b2b2; }
+	
