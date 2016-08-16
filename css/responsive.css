@@ -124,12 +124,12 @@ h1 {
 		text-decoration:none;
 	}
 	a.menu-link span{
-		background: url("../images/down-arrow.png") no-repeat scroll right center transparent;
+		background: url("/images/down-arrow.png") no-repeat scroll right center transparent;
 		cursor: pointer;
 		padding-right: 18px;
 	}
 	a.active span{
-		background: url("../images/up-arrow.png") no-repeat scroll right center transparent;
+		background: url("/images/up-arrow.png") no-repeat scroll right center transparent;
 		cursor: pointer;
 		padding-right: 18px;
 	}
